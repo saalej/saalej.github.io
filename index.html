@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <title>Carousel Fate/Grand Order</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="scritp.js" defer></script>
+    <link rel="icon" type="image/png" href="assets/icon.png" />
+</head>
+
 <body>
-    <div>
-        <h1 id="title">Marian Herrera</h1>
-        <div id="parrafo">
-            <p>I'm hosted with GitHub Pages.</p>
+    <section id="principal">
+        <h1 id="title" class="info">Fate/Grand Order</h1>
+
+        <p class="parrafo">Videojuego móvil de rol japonés gratuito en línea, desarrollado por Delightworks con Unity, y
+            publicado por Aniplex. El juego está basado en la franquicia Fate/stay night de Type-Moon, y fue lanzado en
+            Japón el 29 de julio de 2015 para Android, y el 12 de agosto de 2015, para iOS</p>
+
+
+        <div class="carousel" data-carousel>
+            <button class="carouselBtn prev" data-carousel-button="prev">&#8610;</button>
+            <button class="carouselBtn next" data-carousel-button="next">&#8611;</button>
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <iframe class="frame" alt="Song #1"
+                        src="https://drive.google.com/file/d/1USLZTdHl411tKl5PafSz60OZfwiB_ReL/preview"
+                        allow="autoplay"></iframe>
+                </li>
+
+                <li class="slide">
+                    <iframe class="frame" alt="Song #2"
+                        src="https://drive.google.com/file/d/1Go_yOezNYYkqvdV0Og8QEA4rNrSDx5SG/preview"
+                        allow="autoplay"></iframe>
+                </li>
+
+                <li class="slide">
+                    <iframe class="frame" alt="Song #3"
+                        src="https://drive.google.com/file/d/1BpWzj2CMnk9LL1iXZdN-nX2aRaNnm7v3/preview"
+                        allow="autoplay"></iframe>
+                </li>
+                <li class="slide">
+                    <iframe class="frame" alt="Song #4"
+                        src="https://drive.google.com/file/d/1MeSPa3YC96InWsrxFo_xvY1m_OWTurO3/preview"
+                        allow="autoplay"></iframe>
+                </li>
+            </ul>
         </div>
-        <iframe id="video" src="https://drive.google.com/file/d/1USLZTdHl411tKl5PafSz60OZfwiB_ReL/preview" width="640"
-            height="480" allow="autoplay"></iframe>
-    </div>
+        <div id="repositorios">
+            <h3 class="recursos">Redes sociales</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/marianalejandra.herreraayala"><img
+                        src="https://cdn-icons-png.flaticon.com/512/124/124010.png"></img></a>
+                <a href="https://twitter.com/Saale_Herrera"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/1200px-Twitter-logo.svg.png"></img></a>
+
+                <a href="https://www.instagram.com/saalemarian/"><img
+                        src="https://149440826.v2.pressablecdn.com/wp-content/uploads/2020/03/instagram-png-instagram-png-logo-1455.png"></img></a>
+
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
